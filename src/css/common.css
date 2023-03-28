@@ -16,3 +16,29 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Css for Timer */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  margin: 20px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
